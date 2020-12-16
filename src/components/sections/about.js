@@ -132,31 +132,29 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'HTML & (S)CSS', 'React', 'Vue', 'Node.js', 'WordPress'];
+  const skills = ['JavaScript (ES6+)', 'HTML & (S)CSS', 'PHP', 'Node.js'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
-      <h2 className="numbered-heading">About Me</h2>
+      <h2 className="numbered-heading">Sobre</h2>
 
       <div className="inner">
         <StyledText>
           <div>
-            <p>Hello! I'm Brittany, a software engineer based in Boston, MA.</p>
+            <p>Olá! Sou João Paulo, junior web developer.</p>
 
             <p>
-              I enjoy creating things that live on the internet, whether that be websites,
-              applications, or anything in between. My goal is to always build products that provide
-              pixel-perfect, performant experiences.
+              Desde pequeno, muito empolgado, querendo aprender coisas novas. Ao decorrer dos anos,
+              a vontade só cresceu. Matemática, Física, Química, Filosofia... Tudo isso me levou
+              hoje para a tecnologia da informação. Amo aprender a aprender! Amo programar!
             </p>
 
             <p>
-              Shortly after graduating from{' '}
-              <a href="https://www.ccis.northeastern.edu">Northeastern University</a>, I joined the
-              engineering team at <a href="https://www.upstatement.com">Upstatement</a> where I work
-              on a wide variety of interesting and meaningful projects on a daily basis.
+              Estou concluindo o ensino técnico no{' '}
+              <a href="http://instagram.com/ifrnoficial/">IFRN</a>
             </p>
 
-            <p>Here are a few technologies I've been working with recently:</p>
+            <p>E estudando as seguintes tecnologias:</p>
           </div>
 
           <ul className="skills-list">

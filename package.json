@@ -1,14 +1,11 @@
 {
-  "name": "v4",
-  "description": "Personal Website V4",
+  "name": "joaopaulopmedeiros",
+  "description": "Personal Website",
   "version": "1.0.0",
-  "author": "Brittany Chiang <brittany.chiang@gmail.com>",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/bchiang7/v4"
-  },
   "keywords": [
-    "gatsby"
+    "gatsby",
+    "website",
+    "bchiang's boilerplate"
   ],
   "license": "MIT",
   "scripts": {

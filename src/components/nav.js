@@ -196,7 +196,7 @@ const Nav = ({ isHome }) => {
                     href="/resume.pdf"
                     target="_blank"
                     rel="noopener noreferrer">
-                    Resume
+                    Currículo
                   </a>
                 </div>
               </CSSTransition>
