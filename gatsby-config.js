@@ -3,10 +3,10 @@ const config = require('./src/config');
 module.exports = {
   siteMetadata: {
     title: 'João Paulo',
-    description: 'Website',
-    siteUrl: 'https://brittanychiang.com', // No trailing slash allowed!
-    image: '', // Path to your image you placed in the 'static' folder
-    twitterUsername: '',
+    description: 'Personal website',
+    siteUrl: 'https://personal-website-1wkcvv9vs.vercel.app', // No trailing slash allowed!
+    image: '/og.png', // Path to your image you placed in the 'static' folder
+    twitterUsername: '@bchiang7',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -24,7 +24,7 @@ module.exports = {
         background_color: config.colors.darkNavy,
         theme_color: config.colors.navy,
         display: 'minimal-ui',
-        icon: '',
+        icon: 'src/images/logo.png',
       },
     },
     `gatsby-plugin-offline`,
