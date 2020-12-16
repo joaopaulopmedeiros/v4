@@ -4,8 +4,8 @@ module.exports = {
   siteMetadata: {
     title: 'João Paulo',
     description: 'Website',
-    siteUrl: '', // No trailing slash allowed!
-    image: '/og.png', // Path to your image you placed in the 'static' folder
+    siteUrl: 'https://brittanychiang.com', // No trailing slash allowed!
+    image: '', // Path to your image you placed in the 'static' folder
     twitterUsername: '',
   },
   plugins: [
@@ -18,13 +18,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'BrittanyChiang',
-        short_name: 'BrittanyChiang',
+        name: 'joaopaulopmedeiros',
+        short_name: 'joaopaulopmedeiros',
         start_url: '/',
         background_color: config.colors.darkNavy,
         theme_color: config.colors.navy,
         display: 'minimal-ui',
-        icon: 'src/images/logo.png',
+        icon: '',
       },
     },
     `gatsby-plugin-offline`,
