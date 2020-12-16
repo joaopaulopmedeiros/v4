@@ -142,22 +142,22 @@ const ArchivePage = ({ location, data }) => {
 
   return (
     <Layout location={location}>
-      <Helmet title="Archive" />
+      <Helmet title="Projetos" />
 
       <main>
         <header ref={revealTitle}>
-          <h1 className="big-heading">Archive</h1>
-          <p className="subtitle">A big list of things I’ve worked on</p>
+          <h1 className="big-heading">Projetos</h1>
+          <p className="subtitle">Lista dos meus últimos projetos</p>
         </header>
 
         <StyledTableContainer ref={revealTable}>
           <table>
             <thead>
               <tr>
-                <th>Year</th>
-                <th>Title</th>
-                <th className="hide-on-mobile">Made at</th>
-                <th className="hide-on-mobile">Built with</th>
+                <th>Ano</th>
+                <th>Nome</th>
+                <th className="hide-on-mobile">Criado em</th>
+                <th className="hide-on-mobile">Tecnlogias</th>
                 <th>Link</th>
               </tr>
             </thead>
@@ -250,8 +250,6 @@ export const pageQuery = graphql`
             tech
             github
             external
-            ios
-            android
             company
           }
           html
