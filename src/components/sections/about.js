@@ -141,7 +141,7 @@ const About = () => {
       <div className="inner">
         <StyledText>
           <div>
-            <p>Olá! Sou João Paulo, junior web developer.</p>
+            <p>Olá! Sou João Paulo, desenvolvedor web junior.</p>
 
             <p>
               Desde pequeno, muito empolgado, querendo aprender coisas novas. Ao decorrer dos anos,
