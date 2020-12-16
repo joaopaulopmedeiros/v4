@@ -4,9 +4,9 @@ module.exports = {
   siteMetadata: {
     title: 'João Paulo',
     description: 'Personal website',
-    siteUrl: 'https://personal-website-1wkcvv9vs.vercel.app', // No trailing slash allowed!
+    siteUrl: 'https://joaopaulopmedeiros.vercel.app', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
-    twitterUsername: '@bchiang7',
+    twitterUsername: '@jp15_thinker',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
