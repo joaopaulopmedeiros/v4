@@ -8,4 +8,4 @@ tech:
 showInProjects: true
 ---
 
-A tiny and simple create-project CLI. Start coding with TS and JS on an easy way!
+Uma interface de linha de comando simples para inicar seus projetos de JS e TS.
